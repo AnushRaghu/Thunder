@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>Riders Club International</title>
+<head>
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<style>
+
+
+h2 {
+    color: #666666;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+body {
+    
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSsD1tzPUcqOe-3wklIh1In92f169EXV-8byOANUyHTbVGPhtLP");
+    background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<script>
+      var myDataRef = new Firebase('https://riders-club.firebaseio.com/#-KCPwvumJGODWyUZxZWi|eb58ed911de2c1f8ba22a2cf1227c7a4');
+
+<h2>Manali Trip 2k16</h2>
+<p>This is to test whether who are all there for a ride along the great Manali-Leh Highway.</p>
+
+</script>
+</body>
+</html>
